@@ -18,6 +18,9 @@ The study of how an algorithm's resource usage, such as running time or memory, 
 
 ## B
 
+### Base Case
+The simplest case of a recursive problem that can be solved directly without making another recursive call.
+
 ### Big-O Notation — $O(\cdot)$
 Describes an asymptotic upper bound on the growth of a function.
 
@@ -43,6 +46,9 @@ The property that an algorithm produces the required output for every valid inpu
 ### Data Structure
 A way of organizing and storing data together with the operations that can be performed on it.
 
+### Destructive
+Describes an operation or algorithm that modifies its original input.
+
 ### Dynamic Array
 An array that can grow or shrink by allocating new memory when necessary. It typically keeps extra capacity to avoid resizing after every insertion.
 
@@ -57,6 +63,9 @@ A measure of the computational resources required by an algorithm, often express
 A basic operation assumed to require a fixed amount of time under a chosen model of computation.
 
 ## I
+
+### In-Place
+Describes an algorithm that uses only a constant amount of additional memory beyond the input.
 
 ### Interface
 A specification of the operations a data type supports, independent of how those operations are implemented.
@@ -91,6 +100,12 @@ A value that refers to the memory location of another object or data item.
 
 ### Random Access
 The ability to access an element directly by its position without traversing the preceding elements.
+
+### Recurrence Relation
+An equation that describes the running time of a recursive algorithm in terms of smaller input sizes.
+
+### Recursion
+A technique in which a function solves a problem by calling itself on smaller versions of the same problem.
 
 ## S
 
