@@ -57,11 +57,7 @@ $$
 
 over $k$ insertions.
 
-Therefore:
-
-$$
-\text{insert\_last} = \Theta(1) \text{ amortized}
-$$
+Therefore, `insert_last` has an amortized running time of $\Theta(1)$.
 
 In contrast, `insert_at(i, x)` may require shifting $\Theta(n)$ elements on every operation.
 
