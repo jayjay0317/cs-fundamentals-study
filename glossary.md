@@ -29,6 +29,9 @@ Describes an asymptotic upper bound on the growth of a function.
 ### Capacity
 The number of memory slots currently allocated for a dynamic array, which may be larger than the number of stored items.
 
+### Collision
+When two distinct keys are mapped to the same hash-table index.
+
 ### Computational Problem
 A problem defined in terms of possible inputs and the required outputs for those inputs.
 
@@ -62,6 +65,14 @@ A measure of the computational resources required by an algorithm, often express
 ### Fundamental Operation
 A basic operation assumed to require a fixed amount of time under a chosen model of computation.
 
+## H
+
+### Hash Function
+A function that maps a key to an index in a hash table.
+
+### Hash Table
+A data structure that uses hashing to support fast key-based operations.
+
 ## I
 
 ### In-Place
@@ -74,6 +85,9 @@ A specification of the operations a data type supports, independent of how those
 
 ### Linked List
 A pointer-based data structure in which each node stores an item and a reference to the next node.
+
+### Load Factor
+The ratio of stored items to hash-table slots, $\alpha = n/m$.
 
 ## M
 
@@ -122,6 +136,11 @@ An array with a fixed amount of allocated space that cannot directly grow or shr
 
 ### Theta Notation — $\Theta(\cdot)$
 Describes an asymptotically tight bound, giving both an upper and lower bound of the same order.
+
+## U
+
+### Universal Hashing
+A randomized hashing method designed to keep collision probability small.
 
 ## W
 
