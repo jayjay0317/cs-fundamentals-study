@@ -32,6 +32,9 @@ The number of memory slots currently allocated for a dynamic array, which may be
 ### Collision
 When two distinct keys are mapped to the same hash-table index.
 
+### Comparison Model
+A model in which an algorithm determines the relative order of items only by comparing their keys.
+
 ### Computational Problem
 A problem defined in terms of possible inputs and the required outputs for those inputs.
 
@@ -128,6 +131,9 @@ An interface in which items are organized and accessed according to their positi
 
 ### Set
 An interface in which items are identified by unique keys rather than by position.
+
+### Stable Sorting
+Sorting that preserves the relative order of items with equal keys.
 
 ### Static Array
 An array with a fixed amount of allocated space that cannot directly grow or shrink.
