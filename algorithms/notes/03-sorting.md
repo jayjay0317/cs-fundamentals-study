@@ -1,3 +1,5 @@
+# Sorting
+
 ## Set Interface and Arrays
 
 For an unsorted array-based set:

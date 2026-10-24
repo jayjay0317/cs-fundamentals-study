@@ -1,3 +1,5 @@
+# Hashing
+
 ## Direct Access Arrays
 
 - Store each item at the index equal to its key.
