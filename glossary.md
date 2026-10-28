@@ -24,6 +24,12 @@ The simplest case of a recursive problem that can be solved directly without mak
 ### Big-O Notation — $O(\cdot)$
 Describes an asymptotic upper bound on the growth of a function.
 
+### Binary Search Tree (BST)
+A binary tree where keys in the left subtree are smaller and keys in the right subtree are larger.
+
+### Binary Tree
+A tree in which each node has at most two children.
+
 ## C
 
 ### Capacity
@@ -52,6 +58,9 @@ The property that an algorithm produces the required output for every valid inpu
 ### Data Structure
 A way of organizing and storing data together with the operations that can be performed on it.
 
+### Depth
+The number of edges from a node to the root.
+
 ### Destructive
 Describes an operation or algorithm that modifies its original input.
 
@@ -75,6 +84,9 @@ A function that maps a key to an index in a hash table.
 
 ### Hash Table
 A data structure that uses hashing to support fast key-based operations.
+
+### Height
+The number of edges in the longest downward path from a node to a leaf.
 
 ## I
 
@@ -142,6 +154,9 @@ An array with a fixed amount of allocated space that cannot directly grow or shr
 
 ### Theta Notation — $\Theta(\cdot)$
 Describes an asymptotically tight bound, giving both an upper and lower bound of the same order.
+
+### Traversal
+The process of visiting nodes of a tree in a defined order.
 
 ## U
 
