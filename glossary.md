@@ -16,6 +16,12 @@ A data structure that stores elements in a contiguous block of memory and suppor
 ### Asymptotic Analysis
 The study of how an algorithm's resource usage, such as running time or memory, grows as the input size becomes large.
 
+### Augmentation
+Adding extra information to each node so certain operations can be performed more efficiently.
+
+### AVL Tree
+A self-balancing binary search tree that keeps the height difference between left and right subtrees at most 1.
+
 ## B
 
 ### Base Case
@@ -135,6 +141,9 @@ An equation that describes the running time of a recursive algorithm in terms of
 
 ### Recursion
 A technique in which a function solves a problem by calling itself on smaller versions of the same problem.
+
+### Rotation
+A local restructuring of a tree that changes its shape while preserving traversal order.
 
 ## S
 
