@@ -7,26 +7,18 @@ Traversal order follows increasing key order.
 The **BST property** is:
 
 $$
-\text{keys in left subtree} < \text{node key} < \text{keys in right subtree}
+\text{left keys} < \text{node key} < \text{right keys}
 $$
 
 ## Sequence Binary Tree
 
 Traversal order represents sequence order.
 
-Each node can store its subtree size:
-
-$$
-\text{size(node)} = \text{number of nodes in its subtree}
-$$
+Each node can store its subtree size.
 
 ### `subtree_at(node, i)`
 
-Let:
-
-$$
-n_L = \text{size(node.left)}
-$$
+Let $n_L$ be the size of the left subtree.
 
 Then:
 
@@ -40,19 +32,9 @@ This takes $O(h)$ time.
 
 Each node can store $O(1)$ additional information about its subtree.
 
-The stored property should be computable from the node and its children in $O(1)$ time.
+For example:
 
-Example:
-
-$$
-\text{node.size}
-=
-\text{node.left.size}
-+
-\text{node.right.size}
-+
-1
-$$
+`node.size = node.left.size + node.right.size + 1`
 
 Possible subtree properties include:
 
@@ -79,28 +61,22 @@ then operations that take $O(h)$ become $O(\log n)$.
 
 An **AVL tree** is a balanced binary search tree that maintains height balance.
 
-Define:
+The skew of a node is:
 
 $$
-\text{skew(node)}
-=
-\text{height(node.right)}
--
-\text{height(node.left)}
+\text{skew} = h_R - h_L
 $$
 
 For an AVL tree:
 
 $$
-\text{skew(node)} \in \{-1,0,1\}
+\text{skew} \in \{-1,0,1\}
 $$
 
 Node height can be maintained using:
 
 $$
-\text{node.height}
-=
-1+\max(\text{node.left.height},\text{node.right.height})
+h = 1 + \max(h_L, h_R)
 $$
 
 If an insertion or deletion causes imbalance, **rotations** restore balance while preserving traversal order.
