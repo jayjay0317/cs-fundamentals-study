@@ -30,6 +30,9 @@ The simplest case of a recursive problem that can be solved directly without mak
 ### Big-O Notation — $O(\cdot)$
 Describes an asymptotic upper bound on the growth of a function.
 
+### Binary Heap
+A complete binary tree stored in an array that satisfies a heap property.
+
 ### Binary Search Tree (BST)
 A binary tree where keys in the left subtree are smaller and keys in the right subtree are larger.
 
@@ -46,6 +49,9 @@ When two distinct keys are mapped to the same hash-table index.
 
 ### Comparison Model
 A model in which an algorithm determines the relative order of items only by comparing their keys.
+
+### Complete Binary Tree
+A binary tree whose levels are full except possibly the last, which is filled from left to right.
 
 ### Computational Problem
 A problem defined in terms of possible inputs and the required outputs for those inputs.
@@ -130,6 +136,9 @@ Describes an asymptotic lower bound on the growth of a function.
 
 ### Pointer
 A value that refers to the memory location of another object or data item.
+
+### Priority Queue
+An interface that supports efficient access to the highest- or lowest-priority item.
 
 ## R
 
