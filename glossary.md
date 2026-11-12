@@ -4,6 +4,9 @@ A collection of important computer science terminology encountered throughout my
 
 ## A
 
+### Adjacency List
+A graph representation that stores the neighbors of each vertex.
+
 ### Algorithm
 A finite procedure or sequence of steps used to solve a computational problem.
 
@@ -38,6 +41,9 @@ A binary tree where keys in the left subtree are smaller and keys in the right s
 
 ### Binary Tree
 A tree in which each node has at most two children.
+
+### Breadth-First Search (BFS)
+A graph traversal algorithm that explores vertices level by level from a source.
 
 ## C
 
@@ -88,6 +94,11 @@ A measure of the computational resources required by an algorithm, often express
 
 ### Fundamental Operation
 A basic operation assumed to require a fixed amount of time under a chosen model of computation.
+
+## G
+
+### Graph
+A data structure consisting of vertices and edges connecting them.
 
 ## H
 
@@ -161,6 +172,9 @@ An interface in which items are organized and accessed according to their positi
 
 ### Set
 An interface in which items are identified by unique keys rather than by position.
+
+### Shortest Path
+A path with the minimum number of edges between two vertices in an unweighted graph.
 
 ### Stable Sorting
 Sorting that preserves the relative order of items with equal keys.
