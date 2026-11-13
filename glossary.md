@@ -27,6 +27,9 @@ A self-balancing binary search tree that keeps the height difference between lef
 
 ## B
 
+### Backtracking
+Returning to a previous state after finishing the current exploration.
+
 ### Base Case
 The simplest case of a recursive problem that can be solved directly without making another recursive call.
 
@@ -79,8 +82,14 @@ A way of organizing and storing data together with the operations that can be pe
 ### Depth
 The number of edges from a node to the root.
 
+### Depth-First Search (DFS)
+A graph traversal algorithm that explores as deeply as possible before backtracking.
+
 ### Destructive
 Describes an operation or algorithm that modifies its original input.
+
+### Directed Acyclic Graph (DAG)
+A directed graph that contains no directed cycles.
 
 ### Dynamic Array
 An array that can grow or shrink by allocating new memory when necessary. It typically keeps extra capacity to avoid resizing after every insertion.
@@ -186,6 +195,9 @@ An array with a fixed amount of allocated space that cannot directly grow or shr
 
 ### Theta Notation — $\Theta(\cdot)$
 Describes an asymptotically tight bound, giving both an upper and lower bound of the same order.
+
+### Topological Ordering
+An ordering of vertices in which every directed edge points from an earlier vertex to a later vertex.
 
 ### Traversal
 The process of visiting nodes of a tree in a defined order.
