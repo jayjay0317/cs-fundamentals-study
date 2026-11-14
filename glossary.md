@@ -96,6 +96,9 @@ An array that can grow or shrink by allocating new memory when necessary. It typ
 
 ## E
 
+### Edge Relaxation
+Updating a distance estimate when a shorter path is discovered through an edge.
+
 ### Efficiency
 A measure of the computational resources required by an algorithm, often expressed in terms of running time or space as a function of input size.
 
@@ -146,6 +149,11 @@ The process of reserving a block of memory for storing data.
 
 ### Model of Computation
 A simplified model that defines the basic operations available to an algorithm and the cost assigned to those operations.
+
+## N
+
+### Negative-Weight Cycle
+A directed cycle whose total edge weight is negative.
 
 ## O
 
@@ -208,6 +216,9 @@ The process of visiting nodes of a tree in a defined order.
 A randomized hashing method designed to keep collision probability small.
 
 ## W
+
+### Weighted Graph
+A graph in which each edge has an associated numerical weight.
 
 ### Word-RAM Model
 A model of computation in which data is stored in fixed-size machine words and common operations on those words are treated as constant-time operations.
