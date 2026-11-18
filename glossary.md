@@ -33,6 +33,9 @@ Returning to a previous state after finishing the current exploration.
 ### Base Case
 The simplest case of a recursive problem that can be solved directly without making another recursive call.
 
+### Bellman-Ford Algorithm
+A shortest-path algorithm that uses repeated edge relaxation and can detect reachable negative-weight cycles.
+
 ### Big-O Notation — $O(\cdot)$
 Describes an asymptotic upper bound on the growth of a function.
 
@@ -219,6 +222,9 @@ A randomized hashing method designed to keep collision probability small.
 
 ### Weighted Graph
 A graph in which each edge has an associated numerical weight.
+
+### Witness
+A vertex whose shortest-path estimate improves when the allowed number of edges increases from $|V|-1$ to $|V|$.
 
 ### Word-RAM Model
 A model of computation in which data is stored in fixed-size machine words and common operations on those words are treated as constant-time operations.
