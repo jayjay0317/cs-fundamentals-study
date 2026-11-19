@@ -82,6 +82,9 @@ The property that an algorithm produces the required output for every valid inpu
 ### Data Structure
 A way of organizing and storing data together with the operations that can be performed on it.
 
+### Decrease-Key Operation
+A priority queue operation that reduces an item's key while maintaining the heap property.
+
 ### Depth
 The number of edges from a node to the root.
 
@@ -90,6 +93,9 @@ A graph traversal algorithm that explores as deeply as possible before backtrack
 
 ### Destructive
 Describes an operation or algorithm that modifies its original input.
+
+### Dijkstra's Algorithm
+A greedy algorithm that computes single-source shortest paths in a graph with nonnegative edge weights by repeatedly selecting the vertex with the smallest distance estimate.
 
 ### Directed Acyclic Graph (DAG)
 A directed graph that contains no directed cycles.
