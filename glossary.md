@@ -103,6 +103,9 @@ A directed graph that contains no directed cycles.
 ### Dynamic Array
 An array that can grow or shrink by allocating new memory when necessary. It typically keeps extra capacity to avoid resizing after every insertion.
 
+### Dynamic Programming
+An algorithm design technique that solves problems by combining solutions to overlapping subproblems while avoiding redundant computation.
+
 ## E
 
 ### Edge Relaxation
@@ -152,6 +155,9 @@ The ratio of stored items to hash-table slots, $\alpha = n/m$.
 
 ### Machine Word
 A fixed-size group of bits that a processor can operate on as a unit. A $w$-bit word contains $w$ bits.
+
+### Memoization
+A technique that stores the results of previously solved subproblems so they can be reused without recomputation.
 
 ### Memory Allocation
 The process of reserving a block of memory for storing data.
@@ -207,6 +213,9 @@ Sorting that preserves the relative order of items with equal keys.
 
 ### Static Array
 An array with a fixed amount of allocated space that cannot directly grow or shrink.
+
+### Subproblem
+A smaller instance of a problem whose solution contributes to solving the original problem.
 
 ## T
 
