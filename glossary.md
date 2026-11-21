@@ -151,6 +151,12 @@ A pointer-based data structure in which each node stores an item and a reference
 ### Load Factor
 The ratio of stored items to hash-table slots, $\alpha = n/m$.
 
+### Longest Common Subsequence (LCS)
+The longest sequence that is a subsequence of two given sequences.
+
+### Longest Increasing Subsequence (LIS)
+The longest subsequence of a given sequence whose elements are strictly increasing.
+
 ## M
 
 ### Machine Word
@@ -216,6 +222,12 @@ An array with a fixed amount of allocated space that cannot directly grow or shr
 
 ### Subproblem
 A smaller instance of a problem whose solution contributes to solving the original problem.
+
+### Subproblem Expansion
+The process of adding state variables or constraints to a subproblem definition to capture information necessary for solving the original problem.
+
+### Subsequence
+A sequence obtained by removing zero or more elements from another sequence while preserving the relative order of the remaining elements.
 
 ## T
 
