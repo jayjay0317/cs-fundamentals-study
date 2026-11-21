@@ -89,10 +89,7 @@ Define $L(i)$ as the length of the longest increasing subsequence of `A[i:]` tha
 **Relate:**
 
 $$
-L(i)=1+\max\left(
-\{L(j):i<j<n,\ A[i]<A[j]\}
-\cup\{0\}
-\right)
+L(i) = 1 + \max \left( \lbrace L(j) : i \lt j \lt n,\ A[i] \lt A[j] \rbrace \cup \lbrace 0 \rbrace \right)
 $$
 
 Consider all subsequent elements that are strictly greater than the current element.
@@ -114,7 +111,7 @@ The last element forms an increasing subsequence of length 1.
 **Original Problem:**
 
 $$
-\max_{0\le i<n} L(i)
+\max_{0 \le i \lt n} L(i)
 $$
 
 The optimal subsequence may start at any position in the input sequence.
