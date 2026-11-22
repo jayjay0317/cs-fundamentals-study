@@ -116,6 +116,9 @@ A measure of the computational resources required by an algorithm, often express
 
 ## F
 
+### Floyd-Warshall Algorithm
+A dynamic programming algorithm that computes all-pairs shortest-path distances by progressively allowing additional intermediate vertices.
+
 ### Fundamental Operation
 A basic operation assumed to require a fixed amount of time under a chosen model of computation.
 
