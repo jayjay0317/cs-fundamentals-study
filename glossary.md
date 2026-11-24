@@ -56,6 +56,9 @@ A graph traversal algorithm that explores vertices level by level from a source.
 ### Capacity
 The number of memory slots currently allocated for a dynamic array, which may be larger than the number of stored items.
 
+### Certificate
+Evidence that allows a Yes answer to a decision problem to be verified.
+
 ### Collision
 When two distinct keys are mapped to the same hash-table index.
 
@@ -81,6 +84,9 @@ The property that an algorithm produces the required output for every valid inpu
 
 ### Data Structure
 A way of organizing and storing data together with the operations that can be performed on it.
+
+### Decision Problem
+A computational problem whose answer is either Yes or No.
 
 ### Decrease-Key Operation
 A priority queue operation that reduces an item's key while maintaining the heap property.
@@ -179,12 +185,24 @@ A simplified model that defines the basic operations available to an algorithm a
 ### Negative-Weight Cycle
 A directed cycle whose total edge weight is negative.
 
+### NP
+The class of decision problems whose Yes answers can be verified in polynomial time using polynomial-length certificates.
+
+### NP-complete
+The class of decision problems that belong to NP and are also NP-hard.
+
+### NP-hard
+The class of problems to which every problem in NP can be reduced in polynomial time.
+
 ## O
 
 ### Omega Notation — $\Omega(\cdot)$
 Describes an asymptotic lower bound on the growth of a function.
 
 ## P
+
+### P
+The class of decision problems solvable in polynomial time.
 
 ### Pointer
 A value that refers to the memory location of another object or data item.
@@ -202,6 +220,9 @@ An equation that describes the running time of a recursive algorithm in terms of
 
 ### Recursion
 A technique in which a function solves a problem by calling itself on smaller versions of the same problem.
+
+### Reduction
+A transformation from one problem to another that allows the original problem to be solved using a solution to the transformed problem.
 
 ### Rotation
 A local restructuring of a tree that changes its shape while preserving traversal order.
@@ -244,6 +265,9 @@ An ordering of vertices in which every directed edge points from an earlier vert
 The process of visiting nodes of a tree in a defined order.
 
 ## U
+
+### Undecidable Problem
+A decision problem for which no algorithm can correctly return an answer in finite time for every possible input.
 
 ### Universal Hashing
 A randomized hashing method designed to keep collision probability small.
