@@ -1,4 +1,4 @@
-# CS Glossary
+# Data Structures and Algorithms Glossary
 
 A collection of important computer science terminology encountered throughout my studies.
 

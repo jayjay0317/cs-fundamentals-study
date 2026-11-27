@@ -10,7 +10,7 @@ The goal is to build a practical understanding of how core CS concepts work, why
 - Develop stronger algorithmic reasoning and problem-solving skills.
 - Understand important database concepts beyond SQL syntax.
 - Build a practical understanding of operating systems.
-- Maintain concise notes, implementations, and practice solutions for future review.
+- Maintain concise notes, implementations, glossaries, and practice solutions for future review.
 
 ## Main Resources
 
@@ -59,28 +59,45 @@ The emphasis is on understanding **why and when** a concept is useful rather tha
 ```text
 cs-fundamentals-study/
 ├── README.md
-├── glossary.md
+├── .gitignore
 ├── algorithms/
+│   ├── glossary.md
 │   ├── notes/
 │   ├── implementations/
 │   ├── exercises/
 │   └── practice/
 │       └── leetcode/
 ├── databases/
+│   ├── glossary.md
 │   ├── notes/
 │   └── exercises/
 └── operating-systems/
+    ├── glossary.md
     ├── notes/
     ├── examples/
     └── exercises/
 ```
 
+## Glossaries
+
+Key technical terms and definitions are organized by study area for future review.
+
+- [Data Structures and Algorithms Glossary](algorithms/glossary.md)
+- [Database Glossary](databases/glossary.md)
+- [Operating Systems Glossary](operating-systems/glossary.md)
+
+## Database Exercises
+
+Database exercises include SQL queries and practical examples based on course materials.
+
+SQLite database files and associated temporary files are excluded from version control. The required database files can be downloaded from the corresponding lecture materials on the [CS50 SQL website](https://cs50.harvard.edu/sql/).
+
 ## Progress
 
 | Area | Status |
 |---|---|
-| Data Structures & Algorithms | Not Started |
-| Database Fundamentals | Not Started |
+| Data Structures & Algorithms | Core Lectures Completed |
+| Database Fundamentals | In Progress |
 | Operating Systems | Not Started |
 
-Detailed topic notes and progress will be added as I work through the material.
+Algorithm implementation and problem-solving practice will continue alongside the study of databases and operating systems.
